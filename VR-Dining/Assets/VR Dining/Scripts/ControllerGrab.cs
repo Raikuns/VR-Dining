@@ -21,7 +21,7 @@ public class ControllerGrab : MonoBehaviour {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
     }
 
-    private void Update()
+    void Update()
     {
         // 1
         if (Controller.GetHairTriggerDown())
