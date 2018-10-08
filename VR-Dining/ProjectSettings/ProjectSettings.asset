@@ -694,13 +694,13 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 529887f4-8f66-41d8-858a-e6431b862341
-  projectName: 
-  organizationId: raikuns
+  cloudProjectId: d42c511e-a0d8-43e0-848a-a95d9d37b173
+  projectName: VR-Dining
+  organizationId: tiesnaber
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
