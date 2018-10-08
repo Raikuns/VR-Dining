@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2018
 		Month: 10
 		Day: 8
-		Hour: 11
-		Minute: 19
-		Second: 55
-		Millisecond: 692
+		Hour: 12
+		Minute: 29
+		Second: 56
+		Millisecond: 219
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2018"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "08/10/2018 09:19:55.690"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "08/10/2018 10:29:56.216"
 			P: "Original|FileName", "KString", "", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\Banana.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2018"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "08/10/2018 09:19:55.690"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "08/10/2018 10:29:56.216"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\west1612\Documents\3dsMax"
 		}
 	}
@@ -76,7 +76,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1788091674016, "", "Scene" {
+	Document: 1787896986800, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -96,7 +96,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 8
+	Count: 6
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -129,7 +129,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Model" {
-		Count: 2
+		Count: 1
 		PropertyTemplate: "FbxNode" {
 			Properties70:  {
 				P: "QuaternionInterpolate", "enum", "", "",0
@@ -207,7 +207,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Geometry" {
-		Count: 2
+		Count: 1
 		PropertyTemplate: "FbxMesh" {
 			Properties70:  {
 				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
@@ -254,7 +254,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1788093203024, "Geometry::", "Mesh" {
+	Geometry: 1788097687424, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.87843137254902,0.337254901960784,0.337254901960784
 		}
@@ -353,70 +353,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 1788093171472, "Geometry::", "Mesh" {
-		Properties70:  {
-			P: "Color", "ColorRGB", "Color", "",0.603921568627451,0.725490196078431,0.898039215686275
-		}
-		Vertices: *24 {
-			a: -9.84251976013184,-9.84251976013184,0,9.84251976013184,-9.84251976013184,0,-9.84251976013184,9.84251976013184,0,9.84251976013184,9.84251976013184,0,-9.84251976013184,-9.84251976013184,78.7401580810547,9.84251976013184,-9.84251976013184,78.7401580810547,-9.84251976013184,9.84251976013184,78.7401580810547,9.84251976013184,9.84251976013184,78.7401580810547
-		} 
-		PolygonVertexIndex: *24 {
-			a: 0,2,3,-2,4,5,7,-7,0,1,5,-5,1,3,7,-6,3,2,6,-8,2,0,4,-7
-		} 
-		Edges: *12 {
-			a: 0,1,2,3,4,5,6,7,9,11,13,17
-		} 
-		GeometryVersion: 124
-		LayerElementNormal: 0 {
-			Version: 102
-			Name: ""
-			MappingInformationType: "ByPolygonVertex"
-			ReferenceInformationType: "Direct"
-			Normals: *72 {
-				a: 0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
-			} 
-			NormalsW: *24 {
-				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-			} 
-		}
-		LayerElementUV: 0 {
-			Version: 101
-			Name: "UVChannel_1"
-			MappingInformationType: "ByPolygonVertex"
-			ReferenceInformationType: "IndexToDirect"
-			UV: *48 {
-				a: 1,0,0,0,1,1,0,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1
-			} 
-			UVIndex: *24 {
-				a: 0,2,3,1,4,5,7,6,8,9,11,10,12,13,15,14,16,17,19,18,20,21,23,22
-			} 
-		}
-		LayerElementSmoothing: 0 {
-			Version: 102
-			Name: ""
-			MappingInformationType: "ByPolygon"
-			ReferenceInformationType: "Direct"
-			Smoothing: *6 {
-				a: 2,4,8,16,32,64
-			} 
-		}
-		Layer: 0 {
-			Version: 100
-			LayerElement:  {
-				Type: "LayerElementNormal"
-				TypedIndex: 0
-			}
-			LayerElement:  {
-				Type: "LayerElementSmoothing"
-				TypedIndex: 0
-			}
-			LayerElement:  {
-				Type: "LayerElementUV"
-				TypedIndex: 0
-			}
-		}
-	}
-	Model: 1787830433264, "Model::Banana", "Mesh" {
+	Model: 1787627075888, "Model::Banana", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -432,21 +369,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 1787830437648, "Model::human", "Mesh" {
-		Version: 232
-		Properties70:  {
-			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
-			P: "RotationActive", "bool", "", "",1
-			P: "InheritType", "enum", "", "",1
-			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-0.631829023361206,0,-32.4965553283691
-			P: "MaxHandle", "int", "Integer", "UH",4
-		}
-		Shading: T
-		Culling: "CullingOff"
-	}
-	Material: 1787831338336, "Material::01 - Default", "" {
+	Material: 1788405996320, "Material::01 - Default", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -468,13 +391,13 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	AnimationStack: 1788095485680, "AnimStack::Take 001", "" {
+	AnimationStack: 1788405116368, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 1788102888208, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 1788407945120, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -484,22 +407,16 @@ Objects:  {
 Connections:  {
 	
 	;Model::Banana, Model::RootNode
-	C: "OO",1787830433264,0
-	
-	;Model::human, Model::RootNode
-	C: "OO",1787830437648,0
+	C: "OO",1787627075888,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",1788102888208,1788095485680
+	C: "OO",1788407945120,1788405116368
 	
 	;Geometry::, Model::Banana
-	C: "OO",1788093203024,1787830433264
+	C: "OO",1788097687424,1787627075888
 	
 	;Material::01 - Default, Model::Banana
-	C: "OO",1787831338336,1787830433264
-	
-	;Geometry::, Model::human
-	C: "OO",1788093171472,1787830437648
+	C: "OO",1788405996320,1787627075888
 }
 ;Takes section
 ;----------------------------------------------------
