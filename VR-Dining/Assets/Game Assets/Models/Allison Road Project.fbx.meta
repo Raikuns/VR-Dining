@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: ed52830dc74ba4c4ebbd56763f1cf30c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Circle
+    100004: Circle.001
+    100006: Circle.002
+    100008: Circle.003
+    100010: Circle.004
+    100012: Circle.005
+    100014: Circle.006
+    100016: Circle.007
+    100018: Circle.008
+    100020: Circle.009
+    100022: Circle.010
+    100024: Circle.011
+    100026: Circle.012
+    100028: Circle.013
+    100030: Circle.014
+    100032: Circle.015
+    100034: Circle.016
+    100036: Circle.017
+    100038: Cube
+    100040: Cube.001
+    100042: Cube.002
+    100044: Cube.003
+    100046: Cube.004
+    100048: Cube.005
+    100050: DishWasher
+    100052: LightSwitches
+    100054: Plane
+    100056: TrashCan
+    400000: //RootNode
+    400002: Circle
+    400004: Circle.001
+    400006: Circle.002
+    400008: Circle.003
+    400010: Circle.004
+    400012: Circle.005
+    400014: Circle.006
+    400016: Circle.007
+    400018: Circle.008
+    400020: Circle.009
+    400022: Circle.010
+    400024: Circle.011
+    400026: Circle.012
+    400028: Circle.013
+    400030: Circle.014
+    400032: Circle.015
+    400034: Circle.016
+    400036: Circle.017
+    400038: Cube
+    400040: Cube.001
+    400042: Cube.002
+    400044: Cube.003
+    400046: Cube.004
+    400048: Cube.005
+    400050: DishWasher
+    400052: LightSwitches
+    400054: Plane
+    400056: TrashCan
+    2100000: Bowl
+    2100002: Pizza Box
+    2100004: Door Handles And Doors
+    2100006: Pepper Grainders
+    2100008: Cup And Plate
+    2100010: Wooden Chopping Plate
+    2100012: No Name
+    2100014: Washing Machine
+    2100016: Cutlery Tray
+    2100018: Power Switches
+    2100020: Toaster And Coffee Heater
+    2100022: Thea Heater
+    2100024: Butcher Knife
+    2100026: Stoof And Oven
+    2100028: Walls
+    2100030: Kitchen Counter And Cabinets
+    2100032: Cabinets Inside And Frame
+    2100034: Hood And Cooking Back Plate
+    2300000: Circle
+    2300002: Circle.001
+    2300004: Circle.002
+    2300006: Circle.003
+    2300008: Circle.004
+    2300010: Circle.005
+    2300012: Circle.006
+    2300014: Circle.007
+    2300016: Circle.008
+    2300018: Circle.009
+    2300020: Circle.010
+    2300022: Circle.011
+    2300024: Circle.012
+    2300026: Circle.013
+    2300028: Circle.014
+    2300030: Circle.015
+    2300032: Circle.016
+    2300034: Circle.017
+    2300036: Cube
+    2300038: Cube.001
+    2300040: Cube.002
+    2300042: Cube.003
+    2300044: Cube.004
+    2300046: Cube.005
+    2300048: DishWasher
+    2300050: LightSwitches
+    2300052: Plane
+    2300054: TrashCan
+    3300000: Circle
+    3300002: Circle.001
+    3300004: Circle.002
+    3300006: Circle.003
+    3300008: Circle.004
+    3300010: Circle.005
+    3300012: Circle.006
+    3300014: Circle.007
+    3300016: Circle.008
+    3300018: Circle.009
+    3300020: Circle.010
+    3300022: Circle.011
+    3300024: Circle.012
+    3300026: Circle.013
+    3300028: Circle.014
+    3300030: Circle.015
+    3300032: Circle.016
+    3300034: Circle.017
+    3300036: Cube
+    3300038: Cube.001
+    3300040: Cube.002
+    3300042: Cube.003
+    3300044: Cube.004
+    3300046: Cube.005
+    3300048: DishWasher
+    3300050: LightSwitches
+    3300052: Plane
+    3300054: TrashCan
+    4300000: Circle.017
+    4300002: Cube.004
+    4300004: Circle.016
+    4300006: Circle.015
+    4300008: Circle.012
+    4300010: Circle.014
+    4300012: Circle.013
+    4300014: Circle.011
+    4300016: Circle.010
+    4300018: DishWasher
+    4300020: Circle.009
+    4300022: Circle.008
+    4300024: Circle.007
+    4300026: Cube.005
+    4300028: LightSwitches
+    4300030: Circle.006
+    4300032: Cube.001
+    4300034: Circle.005
+    4300036: Cube.003
+    4300038: Cube.002
+    4300040: Cube
+    4300042: Circle.004
+    4300044: Circle.003
+    4300046: Circle.002
+    4300048: Circle.001
+    4300050: TrashCan
+    4300052: Plane
+    4300054: Circle
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
