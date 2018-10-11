@@ -5,5 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Food : MonoBehaviour {
 
-    public string FoodName;
+    public string FoodName { get; set; }
+    public bool Liked { get; set; }
 }
