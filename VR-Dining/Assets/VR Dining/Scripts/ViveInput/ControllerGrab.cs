@@ -6,9 +6,9 @@ public class ControllerGrab : MonoBehaviour {
 
     private SteamVR_TrackedObject trackedObj;
 
-    // 1
+   
     private GameObject collidingObject;
-    // 2
+    
     private GameObject objectInHand;
 
     private SteamVR_Controller.Device Controller
@@ -23,7 +23,7 @@ public class ControllerGrab : MonoBehaviour {
 
     void Update()
     {
-        // 1
+       
         if (Controller.GetHairTriggerDown())
         {
             if (collidingObject)
@@ -32,7 +32,7 @@ public class ControllerGrab : MonoBehaviour {
             }
         }
 
-        // 2
+       
         if (Controller.GetHairTriggerUp())
         {
             if (objectInHand)
@@ -44,7 +44,7 @@ public class ControllerGrab : MonoBehaviour {
 
     private void SetCollidingObject(Collider col)
     {
-        // 1
+        
         if (collidingObject || !col.GetComponent<Rigidbody>())
         {
             return;

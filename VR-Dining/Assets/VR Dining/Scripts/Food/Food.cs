@@ -12,4 +12,5 @@ public class Food : MonoBehaviour {
 
     public string FoodName { get; set; }
     public bool Liked { get; set; }
+    public int Calories { get; set; }
 }
