@@ -6,10 +6,12 @@ public class NegativeBasket : Basket {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<Food>() && gameObject.CompareTag("LikeBasket"))
+        var food = other.gameObject;//.GetComponent<Food>();
+        if (food && gameObject.CompareTag("DislikeBasket"))
         {
             positive = false;
-            AddToList(other.gameObject);
+            
+            AddToList(food);
         }
     }
 }

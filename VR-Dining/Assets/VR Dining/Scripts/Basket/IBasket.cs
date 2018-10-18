@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IBasket{
 
-    void AddToList(GameObject _food);
+    void AddToList(Food _food);
     void PlaySong();
 
 	

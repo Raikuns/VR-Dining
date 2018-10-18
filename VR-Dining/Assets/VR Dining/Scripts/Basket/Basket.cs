@@ -2,27 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public abstract class Basket : MonoBehaviour, IBasket {
 
     public bool positive;
-    protected AudioSource source;
+    public AudioSource source;
 
     [SerializeField]
     AudioClip[] feedback;
 
     private List<GameObject> LikeFood = new List<GameObject>();
     private List<GameObject> DislikeFood = new List<GameObject>();
+    //PreferenceContainer preferenceContainer;
 
-    public virtual void AddToList(GameObject _food)
+    public virtual void AddToList(Food _food)
     {
         if (positive)
         {
+            _food.gameObject.SetActive(false);
             LikeFood.Add(_food);
             PlaySong();
+           // preferenceContainer.add(_food)
         }
 
         else if (!positive)
         {
+            _food.gameObject.SetActive(false);
             DislikeFood.Add(_food);
             PlaySong();
         }
