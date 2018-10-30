@@ -6,10 +6,11 @@ public class PositveBasket : Basket {
 
 	void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<Food>() && gameObject.CompareTag("LikeBasket"))
+        var food = other.gameObject.GetComponent<Food>();
+        if (food && gameObject.CompareTag("LikeBasket"))
         {
             positive = true;
-            AddToList(other.gameObject);
+            AddToList(food);
         }
     }
 }

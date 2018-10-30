@@ -11,8 +11,8 @@ public abstract class Basket : MonoBehaviour, IBasket {
     [SerializeField]
     AudioClip[] feedback;
 
-    private List<GameObject> LikeFood = new List<GameObject>();
-    private List<GameObject> DislikeFood = new List<GameObject>();
+    private List<Food> LikeFood = new List<Food>();
+    private List<Food> DislikeFood = new List<Food>();
     //PreferenceContainer preferenceContainer;
 
     public virtual void AddToList(Food _food)
