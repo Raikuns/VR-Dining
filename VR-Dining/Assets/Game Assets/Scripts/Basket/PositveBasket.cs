@@ -4,12 +4,22 @@ using UnityEngine;
 
 public class PositveBasket : Basket {
 
-	void OnTriggerEnter(Collider other)
+    void Start()
+    {
+        LessThanWall = true;
+    }
+
+    void OnTriggerEnter(Collider other)
     {
         var food = other.gameObject.GetComponent<Food>();
-        if (food && gameObject.CompareTag("LikeBasket"))
+        if (food.Calories <= calorieLimit && LessThanWall)
         {
-            positive = true;
+            correct = true;
+            AddToList(food);
+        }
+        else if(food.Calories >= calorieLimit && LessThanWall)
+        {
+            correct = false;
             AddToList(food);
         }
     }

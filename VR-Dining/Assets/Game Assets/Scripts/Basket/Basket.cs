@@ -2,48 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
-public abstract class Basket : MonoBehaviour, IBasket {
+public abstract class Basket : MonoBehaviour {
 
-    public bool positive;
-    public AudioSource source;
+    public bool correct;
+    public bool LessThanWall;
 
-    [SerializeField]
-    AudioClip[] feedback;
+    private int score;
 
-    private List<Food> LikeFood = new List<Food>();
-    private List<Food> DislikeFood = new List<Food>();
-    //PreferenceContainer preferenceContainer;
+    [SerializeField] protected int calorieLimit;
 
+    [SerializeField] private List<Food> correctCalories = new List<Food>();
+    [SerializeField] private List<Food> incorrectCalories = new List<Food>();
+    
     public virtual void AddToList(Food _food)
     {
-        if (positive)
+        if (correct)
         {
+            correctCalories.Add(_food);
+            score += 10;
+            print("Answered Correctly");
             _food.gameObject.SetActive(false);
-            LikeFood.Add(_food);
-            PlaySong();
-           // preferenceContainer.add(_food)
         }
 
-        else if (!positive)
+        else if (!correct)
         {
+            incorrectCalories.Add(_food);
+            score -= 5;
+            print("Wrong Answer");
             _food.gameObject.SetActive(false);
-            DislikeFood.Add(_food);
-            PlaySong();
         }
     }
 
-    public virtual void PlaySong()
+    void OnTriggerEnter(Collider other)
     {
-        if(source != null)
-        {
-            source.clip = feedback[Random.Range(0, feedback.Length)];
-            source.Play();
-        }
+        var food = other.gameObject.GetComponent<Food>();
+        
     }
-    
-
-   
-
-
 }

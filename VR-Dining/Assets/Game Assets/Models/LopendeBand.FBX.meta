@@ -1,24 +1,14 @@
 fileFormatVersion: 2
-guid: fd9118218e7804540946986dc030700e
+guid: 86da5a3386409dd46b5c5f9ed4fc13e3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Banana
-    100004: human
     400000: //RootNode
-    400002: Banana
-    400004: human
-    2100000: 01 - Default
-    2100002: No Name
-    2300000: Banana
-    2300002: human
-    2300004: //RootNode
-    3300000: Banana
-    3300002: human
-    3300004: //RootNode
-    4300000: Banana
-    4300002: human
+    2100000: No Name
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: LopendeBandBand
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -50,7 +40,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.3
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -74,7 +64,7 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
