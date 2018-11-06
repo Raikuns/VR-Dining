@@ -12,11 +12,6 @@ public class FoodSpawner : MonoBehaviour {
         spawned = false;
         StartCoroutine(SpawnTimer());     
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     void SpawnFood()
     {
@@ -24,7 +19,7 @@ public class FoodSpawner : MonoBehaviour {
         StopAllCoroutines();
         if(spawned)
         {
-            Instantiate(food[Random.Range(0,food.Count)], gameObject.transform);                
+            Instantiate(food[Random.Range(0,food.Count)], this.transform);                
             StartCoroutine(SpawnTimer());             
             
         }
@@ -36,7 +31,7 @@ public class FoodSpawner : MonoBehaviour {
     {
         spawned = true;
 
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(3f);
         SpawnFood();
         
     }
