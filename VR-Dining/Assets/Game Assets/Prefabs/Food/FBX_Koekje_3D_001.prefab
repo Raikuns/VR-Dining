@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4550657060535644}
   - component: {fileID: 33821166022428588}
   - component: {fileID: 23391345258001226}
+  - component: {fileID: 65365159038549496}
   m_Layer: 0
   m_Name: FBX_Koekje_3D_001
   m_TagString: Untagged
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1421985634295952}
   m_Mesh: {fileID: 4300000, guid: 467eab5342551854bb18c809cc0c1598, type: 3}
+--- !u!65 &65365159038549496
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421985634295952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.093454994, y: 0.017382763, z: 0.09273129}
+  m_Center: {x: 0.00017439201, y: 0.00869138, z: -0.0002156794}

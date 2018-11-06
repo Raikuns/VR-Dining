@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4798077600723368}
   - component: {fileID: 33979746582344376}
   - component: {fileID: 23477117878623706}
+  - component: {fileID: 135749374162838878}
   m_Layer: 0
   m_Name: FBX_Appel_3D_002
   m_TagString: Untagged
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1964245940868814}
   m_Mesh: {fileID: 4300000, guid: eac8c65d6dcaa074d8b23520796a381b, type: 3}
+--- !u!135 &135749374162838878
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964245940868814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.04504924
+  m_Center: {x: -0.0005450845, y: 0.044627283, z: 0.000141887}

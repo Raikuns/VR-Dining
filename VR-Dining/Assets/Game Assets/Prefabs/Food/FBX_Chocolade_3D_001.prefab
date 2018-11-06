@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23924737331969158}
   - component: {fileID: 114217083881232214}
   - component: {fileID: 54666569861358040}
-  - component: {fileID: 64035999818832178}
+  - component: {fileID: 65434173328328666}
   m_Layer: 0
   m_Name: FBX_Chocolade_3D_001
   m_TagString: Untagged
@@ -101,8 +101,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64035999818832178
-MeshCollider:
+--- !u!65 &65434173328328666
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -110,11 +110,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: f69622d2a7f10ee41b05146925f4fa47, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.23545048, y: 0.112806104, z: 0.011507844}
+  m_Center: {x: 0.00018887594, y: 0.00026005512, z: 0.005753922}
 --- !u!114 &114217083881232214
 MonoBehaviour:
   m_ObjectHideFlags: 1

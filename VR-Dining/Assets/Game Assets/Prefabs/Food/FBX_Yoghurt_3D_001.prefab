@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23083085704586436}
   - component: {fileID: 114412022825119190}
   - component: {fileID: 54737447827827340}
-  - component: {fileID: 64188005913162324}
+  - component: {fileID: 65898309946242310}
   m_Layer: 0
   m_Name: FBX_Yoghurt_3D_001
   m_TagString: Untagged
@@ -101,8 +101,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64188005913162324
-MeshCollider:
+--- !u!65 &65898309946242310
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -110,11 +110,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 10ffaa793ddcbb64684c22e3126db7be, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.70846695, y: 0.69770384, z: 0.7033811}
+  m_Center: {x: -0.000000059604645, y: -4.997822e-15, z: 0.35169056}
 --- !u!114 &114412022825119190
 MonoBehaviour:
   m_ObjectHideFlags: 1
