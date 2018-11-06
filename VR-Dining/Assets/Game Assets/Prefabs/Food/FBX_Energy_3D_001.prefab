@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23913482807663168}
   - component: {fileID: 114478000462751262}
   - component: {fileID: 54135335612775352}
-  - component: {fileID: 64380625324904508}
+  - component: {fileID: 65941575849436096}
   m_Layer: 0
   m_Name: FBX_Energy_3D_001
   m_TagString: Untagged
@@ -38,8 +38,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1210559854454088}
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.558, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalPosition: {x: 6.09, y: 0.558, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -101,8 +101,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64380625324904508
-MeshCollider:
+--- !u!65 &65941575849436096
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -110,11 +110,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 0e90f718218142f489829c8b77ea9f92, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.00042618776, y: 0.0012287014, z: 0.000488995}
+  m_Center: {x: 0.000023298393, y: 0.00061690377, z: -1.8626451e-11}
 --- !u!114 &114478000462751262
 MonoBehaviour:
   m_ObjectHideFlags: 1
