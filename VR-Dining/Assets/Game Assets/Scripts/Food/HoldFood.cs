@@ -5,9 +5,12 @@ using UnityEngine;
 public class HoldFood : MonoBehaviour {
 
     void OnTriggerStay(Collider other)
-    {      
-        other.transform.parent = gameObject.transform;
-                
+    {
+       var food = other.gameObject.GetComponent<Food>();
+        if (food)
+        {
+            other.transform.parent = gameObject.transform;
+        }          
     }
 
     void OnTriggerExit(Collider other)

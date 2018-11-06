@@ -21,7 +21,9 @@ GameObject:
   - component: {fileID: 4550657060535644}
   - component: {fileID: 33821166022428588}
   - component: {fileID: 23391345258001226}
+  - component: {fileID: 114784092068058386}
   - component: {fileID: 65365159038549496}
+  - component: {fileID: 54641137369373830}
   m_Layer: 0
   m_Name: FBX_Koekje_3D_001
   m_TagString: Untagged
@@ -84,6 +86,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1421985634295952}
   m_Mesh: {fileID: 4300000, guid: 467eab5342551854bb18c809cc0c1598, type: 3}
+--- !u!54 &54641137369373830
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421985634295952}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &65365159038549496
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -96,3 +113,14 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.093454994, y: 0.017382763, z: 0.09273129}
   m_Center: {x: 0.00017439201, y: 0.00869138, z: -0.0002156794}
+--- !u!114 &114784092068058386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421985634295952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
