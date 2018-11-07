@@ -9,7 +9,7 @@ public abstract class Basket : MonoBehaviour {
 
     private int score;
 
-    [SerializeField] protected int calorieLimit;
+    public int calorieLimit = 100;
 
     [SerializeField] private List<Food> correctCalories = new List<Food>();
     [SerializeField] private List<Food> incorrectCalories = new List<Food>();
@@ -21,7 +21,7 @@ public abstract class Basket : MonoBehaviour {
             correctCalories.Add(_food);
             score += 10;
             print("Answered Correctly");
-            _food.gameObject.SetActive(false);
+            Destroy(_food.gameObject);
         }
 
         else if (!correct)
@@ -29,13 +29,7 @@ public abstract class Basket : MonoBehaviour {
             incorrectCalories.Add(_food);
             score -= 5;
             print("Wrong Answer");
-            _food.gameObject.SetActive(false);
+            Destroy(_food.gameObject);
         }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        var food = other.gameObject.GetComponent<Food>();
-        
     }
 }

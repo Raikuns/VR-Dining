@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4459129617145084}
   - component: {fileID: 33359166881130190}
   - component: {fileID: 23913482807663168}
-  - component: {fileID: 114478000462751262}
   - component: {fileID: 54135335612775352}
+  - component: {fileID: 114986027694993438}
   - component: {fileID: 65941575849436096}
   m_Layer: 0
   m_Name: FBX_Energy_3D_001
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00042618776, y: 0.0012287014, z: 0.000488995}
   m_Center: {x: 0.000023298393, y: 0.00061690377, z: -1.8626451e-11}
---- !u!114 &114478000462751262
+--- !u!114 &114986027694993438
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: 03b9c4d5c8c8514458bf2c7b711408a4, type: 2}

@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4980192463086116}
   - component: {fileID: 33351848687660832}
   - component: {fileID: 23397866402027532}
-  - component: {fileID: 114037370193785776}
   - component: {fileID: 54288994367674378}
+  - component: {fileID: 114442914939799714}
   - component: {fileID: 65249613510406672}
   m_Layer: 0
   m_Name: FBX_ZalmSlice_3D_001
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.21943647, y: 0.053694397, z: 0.034908846}
   m_Center: {x: 0.0015764423, y: 0, z: 0.017454423}
---- !u!114 &114037370193785776
+--- !u!114 &114442914939799714
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: 753b292b637114349a1677835ff14355, type: 2}

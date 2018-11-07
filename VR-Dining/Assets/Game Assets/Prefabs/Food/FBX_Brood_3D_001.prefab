@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4856013702145868}
   - component: {fileID: 33629465593767966}
   - component: {fileID: 23437998122702486}
-  - component: {fileID: 114550850418506492}
   - component: {fileID: 54020468626163260}
+  - component: {fileID: 114854581483940332}
   - component: {fileID: 65428125318023040}
   m_Layer: 0
   m_Name: FBX_Brood_3D_001
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.089952685, y: 0.08762014, z: 0.15}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114550850418506492
+--- !u!114 &114854581483940332
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: 2ee8d2d1d2d9fa34f968e2870de1a2cf, type: 2}

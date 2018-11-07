@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4550657060535644}
   - component: {fileID: 33821166022428588}
   - component: {fileID: 23391345258001226}
-  - component: {fileID: 114784092068058386}
   - component: {fileID: 65365159038549496}
   - component: {fileID: 54641137369373830}
+  - component: {fileID: 114458068087518050}
   m_Layer: 0
   m_Name: FBX_Koekje_3D_001
   m_TagString: Untagged
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.093454994, y: 0.017382763, z: 0.09273129}
   m_Center: {x: 0.00017439201, y: 0.00869138, z: -0.0002156794}
---- !u!114 &114784092068058386
+--- !u!114 &114458068087518050
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: b0981d5bfcf22c24b8038588a524f6f5, type: 2}

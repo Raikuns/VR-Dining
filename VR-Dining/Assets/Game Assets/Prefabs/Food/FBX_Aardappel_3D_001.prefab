@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4420594504884320}
   - component: {fileID: 33017570514963800}
   - component: {fileID: 23241067561606542}
-  - component: {fileID: 114825499308370590}
   - component: {fileID: 54508267446012456}
+  - component: {fileID: 114545925119239392}
   - component: {fileID: 65255356002962062}
   m_Layer: 0
   m_Name: FBX_Aardappel_3D_001
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.08691287, y: 0.095605016, z: 0.08046792}
   m_Center: {x: 0.009728029, y: 0.00885234, z: 0.04361191}
---- !u!114 &114825499308370590
+--- !u!114 &114545925119239392
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: 7a2e823d62e9a9a40891ce5a69297587, type: 2}

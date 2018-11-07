@@ -12,12 +12,12 @@ public class PositveBasket : Basket {
     void OnTriggerEnter(Collider other)
     {
         var food = other.gameObject.GetComponent<Food>();
-        if (food.Calories <= calorieLimit && LessThanWall)
+        if (food.scriptableFood.KcalAmount <= calorieLimit && LessThanWall)
         {
             correct = true;
             AddToList(food);
         }
-        else if(food.Calories >= calorieLimit && LessThanWall)
+        else if(food.scriptableFood.KcalAmount >= calorieLimit && LessThanWall)
         {
             correct = false;
             AddToList(food);

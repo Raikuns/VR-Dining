@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4903239799204240}
   - component: {fileID: 33683105587430920}
   - component: {fileID: 23239189555789864}
-  - component: {fileID: 114869837913577414}
   - component: {fileID: 54064254052655086}
+  - component: {fileID: 114247764451188164}
   - component: {fileID: 65702359943229894}
   m_Layer: 0
   m_Name: FBX_Banaan_3D_001
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14999232, y: 0.10606286, z: 0.4142007}
   m_Center: {x: -0.01517462, y: 0, z: 0.008356136}
---- !u!114 &114869837913577414
+--- !u!114 &114247764451188164
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: a4abb90a45d656d48a67a67690064aae, type: 2}
