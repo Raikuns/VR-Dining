@@ -6,7 +6,7 @@ public class HoldFood : MonoBehaviour {
 
     void OnTriggerStay(Collider other)
     {
-       var food = other.gameObject.GetComponent<Food>();
+        var food = other.gameObject.GetComponent<Food>();
         if (food)
         {
             other.transform.parent = gameObject.transform;

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6363660a6a94a34ca56902cfc14c3f2, type: 3}
+  m_Name: Aardappel
+  m_EditorClassIdentifier: 
+  FoodName: Aardappel
+  KcalAmount: 82
+  Model: {fileID: 1405200930600026, guid: aeb0565bcf97d4348ae4f5dbaf95edd4, type: 2}

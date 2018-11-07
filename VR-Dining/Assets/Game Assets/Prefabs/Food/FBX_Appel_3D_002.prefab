@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4798077600723368}
   - component: {fileID: 33979746582344376}
   - component: {fileID: 23477117878623706}
-  - component: {fileID: 114812732624534108}
   - component: {fileID: 135749374162838878}
   - component: {fileID: 54088607307322706}
+  - component: {fileID: 114437655555754338}
   m_Layer: 0
   m_Name: FBX_Appel_3D_002
   m_TagString: Untagged
@@ -101,7 +101,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114812732624534108
+--- !u!114 &114437655555754338
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: 972238d455cc35f4c91d023d871ecef0, type: 2}
 --- !u!135 &135749374162838878
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -4,37 +4,28 @@ using UnityEngine;
 
 public class FoodSpawner : MonoBehaviour {
 
-    [SerializeField] private List<Food> food = new List<Food>();
+    [SerializeField] private List<ScriptableFood> food = new List<ScriptableFood>();
     bool spawned;
 	// Use this for initialization
 	void Start () {
-
         spawned = false;
         StartCoroutine(SpawnTimer());     
 	}
 
     void SpawnFood()
     {
-        var _food = gameObject.GetComponent<Food>();
         StopAllCoroutines();
         if(spawned)
         {
-            Instantiate(food[Random.Range(0,food.Count)], this.transform);                
-            StartCoroutine(SpawnTimer());             
-            
-        }
-       
+            Instantiate(food[Random.Range(0, food.Count)].Model.gameObject, this.transform);
+            StartCoroutine(SpawnTimer());                       
+        }       
     }
-
 
     public IEnumerator SpawnTimer()
     {
         spawned = true;
-
         yield return new WaitForSeconds(3f);
-        SpawnFood();
-        
-    }
-
-    
+        SpawnFood();        
+    }    
 }

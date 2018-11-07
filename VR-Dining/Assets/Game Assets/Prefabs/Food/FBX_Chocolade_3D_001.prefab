@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4344041486283246}
   - component: {fileID: 33116062377228858}
   - component: {fileID: 23924737331969158}
-  - component: {fileID: 114217083881232214}
   - component: {fileID: 54666569861358040}
+  - component: {fileID: 114831576383920508}
   - component: {fileID: 65434173328328666}
   m_Layer: 0
   m_Name: FBX_Chocolade_3D_001
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.23545048, y: 0.112806104, z: 0.011507844}
   m_Center: {x: 0.00018887594, y: 0.00026005512, z: 0.005753922}
---- !u!114 &114217083881232214
+--- !u!114 &114831576383920508
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf53f842422c494bbfdbd94a0a8084c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableFood: {fileID: 11400000, guid: 9af9ec757b9f1e4409ea65797b171e7e, type: 2}

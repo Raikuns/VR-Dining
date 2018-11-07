@@ -8,14 +8,8 @@ using UnityEngine;
 /// This class is also to check wether a thrown object was of the type food or not.
 /// </summary>
 ///
-[System.Serializable]
-[RequireComponent(typeof(Rigidbody))]
+
 public class Food : MonoBehaviour
 {
-
-    public string FoodName { get; set; }
-    public bool Liked { get; set; }
-    public int Calories { get; set; }
-    //public GameObject foodModel;
-
+    public ScriptableFood scriptableFood;
 }

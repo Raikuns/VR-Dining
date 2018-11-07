@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6363660a6a94a34ca56902cfc14c3f2, type: 3}
+  m_Name: Appel_002
+  m_EditorClassIdentifier: 
+  FoodName: Appel
+  KcalAmount: 52
+  Model: {fileID: 1964245940868814, guid: 2d7995365ab5c724d8597c11f4150fc8, type: 2}
