@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a6ef8c1ebc7411d4f98a9b5f01c8459f
+guid: 6c5bd84ae06cbb542a52caccce4a6f09
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: EnergyDrink
+    4300000: TestCube
   externalObjects: {}
   materials:
     importMaterials: 1
