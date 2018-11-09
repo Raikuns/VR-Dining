@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodName: Koekje
   KcalAmount: 421
-  Model: {fileID: 1421985634295952, guid: 43af8cfe135e7e24ca59a0d28bcf62e1, type: 2}
+  Model: {fileID: 1421985634295952, guid: 134794722b1e43b4390e2342ac79ee74, type: 2}
