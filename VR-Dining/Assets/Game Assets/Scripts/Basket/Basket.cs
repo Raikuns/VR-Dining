@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public abstract class Basket : MonoBehaviour {
 
     public bool correct;
     public bool LessThanWall;
+
+    private TextMeshProUGUI scoretext;
 
     private int score;
 
@@ -20,6 +23,7 @@ public abstract class Basket : MonoBehaviour {
         {
             correctCalories.Add(_food);
             score += 10;
+            //scoretext.text = ""+ score;
             print("Answered Correctly");
             Destroy(_food.gameObject);
         }
