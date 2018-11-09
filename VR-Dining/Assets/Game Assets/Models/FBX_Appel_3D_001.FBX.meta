@@ -1,29 +1,14 @@
 fileFormatVersion: 2
-guid: d1c827c612552da4d8ed46b9b332362a
+guid: c3cb5b0c1309e7a4199d1a48703241f9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Appel
-    100004: Banana
-    100006: human
     400000: //RootNode
-    400002: Appel
-    400004: Banana
-    400006: human
-    2100000: 01 - Default
-    2100002: No Name
-    2300000: Appel
-    2300002: Banana
-    2300004: human
-    2300006: //RootNode
-    3300000: Appel
-    3300002: Banana
-    3300004: human
-    3300006: //RootNode
-    4300000: Banana
-    4300002: human
-    4300004: Appel
+    2100000: No Name
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Circle.000
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -55,7 +40,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.5
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -79,7 +64,7 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

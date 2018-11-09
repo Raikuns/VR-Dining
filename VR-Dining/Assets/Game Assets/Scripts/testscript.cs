@@ -6,7 +6,7 @@ public class testscript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(Vector3.up * 0.2f * Time.deltaTime);
+        transform.Translate(Vector3.forward * 0.2f * Time.deltaTime);
 	}
 
 }
