@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodName: Appel
   KcalAmount: 54
-  Model: {fileID: 1706242356430888, guid: 6c8594ed395ae954f972e922089c158e, type: 2}
+  Model: {fileID: 1206614756383036, guid: 6c8594ed395ae954f972e922089c158e, type: 2}

@@ -17,7 +17,7 @@ public class NegativeBasket : Basket {
             correct = false;
             AddToList(food);
         }
-        else if (food.scriptableFood.KcalAmount >= calorieLimit && !LessThanWall)
+        else if (food.scriptableFood.KcalAmount >= calorieLimit && LessThanWall)
         {
             correct = true;
             AddToList(food);
