@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: f0832bf11d7e9fc4d8b712094482e787
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bakje_Patat
+    100002: //RootNode
+    100004: patat
+    100006: Patat01
+    100008: Patat02
+    100010: Patat03
+    100012: Patat04
+    100014: Patat05
+    100016: Patat06
+    100018: Patat07
+    100020: Patat08
+    100022: Patat09
+    100024: Patat10
+    100026: Patat11
+    100028: Patat12
+    100030: Patat13
+    100032: Patat14
+    100034: Patat15
+    100036: Patat16
+    100038: Patat17
+    100040: Patat18
+    100042: Patat19
+    100044: Patat20
+    100046: transform1
+    100048: transform10
+    100050: transform11
+    100052: transform12
+    100054: transform13
+    100056: transform14
+    100058: transform15
+    100060: transform16
+    100062: transform17
+    100064: transform18
+    100066: transform19
+    100068: transform2
+    100070: transform20
+    100072: transform21
+    100074: transform3
+    100076: transform4
+    100078: transform5
+    100080: transform6
+    100082: transform7
+    100084: transform8
+    100086: transform9
+    400000: Bakje_Patat
+    400002: //RootNode
+    400004: patat
+    400006: Patat01
+    400008: Patat02
+    400010: Patat03
+    400012: Patat04
+    400014: Patat05
+    400016: Patat06
+    400018: Patat07
+    400020: Patat08
+    400022: Patat09
+    400024: Patat10
+    400026: Patat11
+    400028: Patat12
+    400030: Patat13
+    400032: Patat14
+    400034: Patat15
+    400036: Patat16
+    400038: Patat17
+    400040: Patat18
+    400042: Patat19
+    400044: Patat20
+    400046: transform1
+    400048: transform10
+    400050: transform11
+    400052: transform12
+    400054: transform13
+    400056: transform14
+    400058: transform15
+    400060: transform16
+    400062: transform17
+    400064: transform18
+    400066: transform19
+    400068: transform2
+    400070: transform20
+    400072: transform21
+    400074: transform3
+    400076: transform4
+    400078: transform5
+    400080: transform6
+    400082: transform7
+    400084: transform8
+    400086: transform9
+    2100000: lambert1
+    2300000: patat
+    3300000: patat
+    4300000: patat
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
