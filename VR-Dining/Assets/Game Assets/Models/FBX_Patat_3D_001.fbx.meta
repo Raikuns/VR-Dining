@@ -93,7 +93,9 @@ ModelImporter:
     400086: transform9
     2100000: lambert1
     2300000: patat
+    2300002: //RootNode
     3300000: patat
+    3300002: //RootNode
     4300000: patat
   externalObjects: {}
   materials:
