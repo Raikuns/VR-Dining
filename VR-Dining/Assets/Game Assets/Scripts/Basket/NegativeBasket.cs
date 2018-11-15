@@ -15,12 +15,12 @@ public class NegativeBasket : Basket {
         if (food.scriptableFood.KcalAmount <= calorieLimit && !LessThanWall)
         {
             correct = false;
-            AddToList(food,20);
+            AddToList(food);
         }
         else if (food.scriptableFood.KcalAmount >= calorieLimit && LessThanWall)
         {
             correct = true;
-            AddToList(food, -5);
+            AddToList(food);
         }
     }
 }
