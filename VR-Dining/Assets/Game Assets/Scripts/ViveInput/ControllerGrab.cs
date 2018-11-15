@@ -57,12 +57,23 @@ public class ControllerGrab : MonoBehaviour {
     public void OnTriggerEnter(Collider other)
     {
         SetCollidingObject(other);
+        SteamVR_Controller.Input((int)trackedObj.index).TriggerHapticPulse(2800);
+        
     }
 
     // 2
     public void OnTriggerStay(Collider other)
     {
         SetCollidingObject(other);
+        var food = other.GetComponent<Food>();
+        if (food)
+        {
+            SteamVR_Controller.Input((int)trackedObj.index).TriggerHapticPulse(0);
+        }
+        else
+        {
+            SteamVR_Controller.Input((int)trackedObj.index).TriggerHapticPulse(1900);
+        }
     }
 
     // 3
