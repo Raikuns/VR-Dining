@@ -20,7 +20,7 @@ public class PositveBasket : Basket {
         else if(food.scriptableFood.KcalAmount >= calorieLimit && LessThanWall)
         {
             correct = false;
-            AddToList(food,7);
+            AddToList(food,-7);
         }
     }
 }

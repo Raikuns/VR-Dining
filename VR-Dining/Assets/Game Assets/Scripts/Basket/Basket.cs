@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Basket : MonoBehaviour {
+public class Basket : MonoBehaviour
+{
 
     public bool correct;
     public bool LessThanWall;
@@ -35,4 +36,33 @@ public class Basket : MonoBehaviour {
             Destroy(_food.gameObject);
         }
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        var food = other.gameObject.GetComponent<Food>();
+        if (food.scriptableFood.KcalAmount <= calorieLimit && !LessThanWall)
+        {
+            correct = false;
+            AddToList(food, 26);
+        }
+        if (food.scriptableFood.KcalAmount >= calorieLimit && !LessThanWall)
+        {
+            correct = true;
+            AddToList(food, -7);
+        }
+
+        if (food.scriptableFood.KcalAmount <= calorieLimit && LessThanWall)
+        {
+            correct = true;
+            AddToList(food, 26);
+        }
+        else if (food.scriptableFood.KcalAmount >= calorieLimit && LessThanWall)
+        {
+            correct = false;
+            AddToList(food, -7);
+        }
+    }
 }
+
+     
+       

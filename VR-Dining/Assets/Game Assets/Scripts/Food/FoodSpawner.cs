@@ -8,8 +8,7 @@ public class FoodSpawner : MonoBehaviour {
     bool spawned;
 	// Use this for initialization
 	void Start () {
-        spawned = false;
-        StartCoroutine(SpawnTimer());     
+        spawned = false;    
 	}
 
     void SpawnFood()
@@ -18,11 +17,11 @@ public class FoodSpawner : MonoBehaviour {
         if(spawned)
         {
             Instantiate(food[Random.Range(0, food.Count)].Model.gameObject, this.transform);
-            StartCoroutine(SpawnTimer());                       
+            StartCoroutine(SpawnTimer(3f));                       
         }       
     }
 
-    public IEnumerator SpawnTimer()
+    public IEnumerator SpawnTimer(float timer)
     {
         spawned = true;
         yield return new WaitForSeconds(3f);
