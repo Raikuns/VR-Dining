@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2018
 		Month: 11
-		Day: 28
-		Hour: 14
-		Minute: 44
-		Second: 45
-		Millisecond: 453
+		Day: 29
+		Hour: 11
+		Minute: 39
+		Second: 21
+		Millisecond: 878
 	}
 	Creator: "FBX SDK/FBX Plugins version 2019.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,19 +28,19 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Eetkamerstoel_3D_002.FBX"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Eetkamerstoel_3D_002.FBX"
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Eetkamerstoel_3D_001.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Eetkamerstoel_3D_001.FBX"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2019"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "28/11/2018 13:44:45.451"
-			P: "Original|FileName", "KString", "", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Eetkamerstoel_3D_002.FBX"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:39:21.837"
+			P: "Original|FileName", "KString", "", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Eetkamerstoel_3D_001.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2019"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "28/11/2018 13:44:45.451"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:39:21.837"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\west1612\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\west1612\Documents\3dsMax\scenes\VRDining Safe File.max"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1939484332592, "", "Scene" {
+	Document: 1762483621072, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -198,7 +198,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1939586956768, "Geometry::", "Mesh" {
+	Geometry: 1763365837376, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.541176470588235,0.0313725490196078,0.431372549019608
 		}
@@ -440,19 +440,18 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1939321375440, "Model::EetkamerStoel", "Mesh" {
+	Model: 1762481550960, "Model::EetkamerStoel", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "GeometricTranslation", "Vector3D", "Vector", "",-5.03096808657233e-09,0.445886969566345,0.11509507894516
+			P: "GeometricTranslation", "Vector3D", "Vector", "",-5.03096808657233e-09,0.410216003656387,0.11509507894516
 			P: "GeometricRotation", "Vector3D", "Vector", "",-91.7838516235352,-0,0
-			P: "GeometricScaling", "Vector3D", "Vector", "",0.080492340028286,0.0804923474788666,0.0804923474788666
+			P: "GeometricScaling", "Vector3D", "Vector", "",0.080492340028286,0.0804923549294472,0.0740529596805573
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,-12.4117050170898
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346676,-0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346674,-0,0
 			P: "MaxHandle", "int", "Integer", "UH",3
 		}
 		Shading: T
@@ -466,8 +465,8 @@ Objects:  {
 Connections:  {
 	
 	;Model::EetkamerStoel, Model::RootNode
-	C: "OO",1939321375440,0
+	C: "OO",1762481550960,0
 	
 	;Geometry::, Model::EetkamerStoel
-	C: "OO",1939586956768,1939321375440
+	C: "OO",1763365837376,1762481550960
 }
