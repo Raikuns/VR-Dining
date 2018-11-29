@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2018
 		Month: 11
 		Day: 29
-		Hour: 10
-		Minute: 0
-		Second: 8
-		Millisecond: 925
+		Hour: 11
+		Minute: 46
+		Second: 0
+		Millisecond: 801
 	}
 	Creator: "FBX SDK/FBX Plugins version 2019.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2019"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "29/11/2018 09:00:08.924"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:46:00.798"
 			P: "Original|FileName", "KString", "", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Magezine_3D_001.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2019"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/11/2018 09:00:08.924"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:46:00.798"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\west1612\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\west1612\Documents\3dsMax\scenes\VRDining Safe File.max"
 		}
@@ -60,7 +60,7 @@ GlobalSettings:  {
 		P: "UnitScaleFactor", "double", "Number", "",100
 		P: "OriginalUnitScaleFactor", "double", "Number", "",100.00000066
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
-		P: "DefaultCamera", "KString", "", "", "Producer Front"
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
 		P: "TimeMode", "enum", "", "",6
 		P: "TimeProtocol", "enum", "", "",2
 		P: "SnapOnFrameMode", "enum", "", "",0
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1762483618768, "", "Scene" {
+	Document: 1762279790368, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -198,7 +198,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1763366554736, "Geometry::", "Mesh" {
+	Geometry: 1762274941952, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.0235294117647059,0.529411764705882,0.227450980392157
 		}
@@ -261,7 +261,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1763590276576, "Model::Magazine", "Mesh" {
+	Model: 1763373509152, "Model::Magazine", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -269,9 +269,9 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "GeometricRotation", "Vector3D", "Vector", "",-90,-0,0
-			P: "GeometricScaling", "Vector3D", "Vector", "",0.0479864031076431,0.0479864031076431,0.0479864031076431
+			P: "GeometricScaling", "Vector3D", "Vector", "",0.0388689823448658,0.0388689786195755,0.0388689786195755
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346676,-0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346674,-0,0
 			P: "MaxHandle", "int", "Integer", "UH",48
 		}
 		Shading: T
@@ -285,8 +285,8 @@ Objects:  {
 Connections:  {
 	
 	;Model::Magazine, Model::RootNode
-	C: "OO",1763590276576,0
+	C: "OO",1763373509152,0
 	
 	;Geometry::, Model::Magazine
-	C: "OO",1763366554736,1763590276576
+	C: "OO",1762274941952,1763373509152
 }

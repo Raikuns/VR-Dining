@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2018
 		Month: 11
 		Day: 29
-		Hour: 9
-		Minute: 55
-		Second: 7
-		Millisecond: 224
+		Hour: 11
+		Minute: 45
+		Second: 28
+		Millisecond: 879
 	}
 	Creator: "FBX SDK/FBX Plugins version 2019.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2019"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "29/11/2018 08:55:07.221"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:45:28.876"
 			P: "Original|FileName", "KString", "", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Fruitschaal_3D_001.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2019"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/11/2018 08:55:07.221"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:45:28.876"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\west1612\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\west1612\Documents\3dsMax\scenes\VRDining Safe File.max"
 		}
@@ -60,7 +60,7 @@ GlobalSettings:  {
 		P: "UnitScaleFactor", "double", "Number", "",100
 		P: "OriginalUnitScaleFactor", "double", "Number", "",100.00000066
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
-		P: "DefaultCamera", "KString", "", "", "Producer Front"
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
 		P: "TimeMode", "enum", "", "",6
 		P: "TimeProtocol", "enum", "", "",2
 		P: "SnapOnFrameMode", "enum", "", "",0
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1762285213104, "", "Scene" {
+	Document: 1762483621840, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -198,7 +198,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1761860598448, "Geometry::", "Mesh" {
+	Geometry: 1763364100032, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.0313725490196078,0.23921568627451,0.541176470588235
 		}
@@ -329,18 +329,18 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1762588888960, "Model::Fruitmand", "Mesh" {
+	Model: 1763594071520, "Model::Fruitmand", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "GeometricTranslation", "Vector3D", "Vector", "",0,0.202774778008461,-1.49011611938477e-08
+			P: "GeometricTranslation", "Vector3D", "Vector", "",0,0.172358557581902,-1.26659864818635e-08
 			P: "GeometricRotation", "Vector3D", "Vector", "",-90,1.22133303904343e-12,180
-			P: "GeometricScaling", "Vector3D", "Vector", "",0.0380474552512169,0.0380474552512169,0.0380474552512169
+			P: "GeometricScaling", "Vector3D", "Vector", "",0.032340332865715,0.0323403365910053,0.0323403291404247
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346676,-0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346674,-0,0
 			P: "MaxHandle", "int", "Integer", "UH",33
 		}
 		Shading: T
@@ -354,8 +354,8 @@ Objects:  {
 Connections:  {
 	
 	;Model::Fruitmand, Model::RootNode
-	C: "OO",1762588888960,0
+	C: "OO",1763594071520,0
 	
 	;Geometry::, Model::Fruitmand
-	C: "OO",1761860598448,1762588888960
+	C: "OO",1763364100032,1763594071520
 }
