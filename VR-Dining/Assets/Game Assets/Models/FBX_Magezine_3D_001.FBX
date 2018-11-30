@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2018
 		Month: 11
-		Day: 29
+		Day: 30
 		Hour: 11
-		Minute: 46
-		Second: 0
-		Millisecond: 801
+		Minute: 22
+		Second: 54
+		Millisecond: 974
 	}
 	Creator: "FBX SDK/FBX Plugins version 2019.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2019"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:46:00.798"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "30/11/2018 10:22:54.971"
 			P: "Original|FileName", "KString", "", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Magezine_3D_001.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2019"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/11/2018 10:46:00.798"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "30/11/2018 10:22:54.971"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\west1612\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\west1612\Documents\3dsMax\scenes\VRDining Safe File.max"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1762279790368, "", "Scene" {
+	Document: 2263721670128, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -198,7 +198,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1762274941952, "Geometry::", "Mesh" {
+	Geometry: 2263710383792, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.0235294117647059,0.529411764705882,0.227450980392157
 		}
@@ -230,10 +230,10 @@ Objects:  {
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
 			UV: *48 {
-				a: 1,0,0,0,1,1,0,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,1,1,1
+				a: 0.295836299657822,0.728140234947205,0.993333458900452,0.728140234947205,0.993333458900452,0.743086576461792,0.295836299657822,0.743086576461792,0.492727190256119,0.76238214969635,0.990939438343048,0.76238214969635,0.990939438343048,0.777328431606293,0.492727190256119,0.777328431606293,0.00208522635512054,0.699265778064728,0.00208522635512054,0.0017686877399683,0.500297367572784,0.0017686877399683,0.500297367572784,0.699265778064728,0.0744350627064705,0.903333723545074,0.771932184696198,0.903333723545074,0.771932184696198,0.918280065059662,0.0744350627064705,0.918280065059662,0.492727190256119,0.745261251926422,0.990939438343048,0.745261251926422,0.990939438343048,0.76020759344101,0.492727190256119,0.76020759344101,0.501287758350372,0.000817807391285896,0.999500036239624,0.000817807391285896,0.999500036239624,0.698314905166626,0.501287758350372,0.698314905166626
 			} 
 			UVIndex: *36 {
-				a: 1,0,3,0,2,3,7,6,4,7,4,5,11,10,8,11,8,9,15,14,12,15,12,13,19,18,16,19,16,17,23,22,20,23,20,21
+				a: 11,8,10,8,9,10,22,23,20,22,20,21,6,7,4,6,4,5,14,15,12,14,12,13,18,19,16,18,16,17,2,3,0,2,0,1
 			} 
 		}
 		LayerElementSmoothing: 0 {
@@ -261,7 +261,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1763373509152, "Model::Magazine", "Mesh" {
+	Model: 2263789831056, "Model::Magazine", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -285,8 +285,8 @@ Objects:  {
 Connections:  {
 	
 	;Model::Magazine, Model::RootNode
-	C: "OO",1763373509152,0
+	C: "OO",2263789831056,0
 	
 	;Geometry::, Model::Magazine
-	C: "OO",1762274941952,1763373509152
+	C: "OO",2263710383792,2263789831056
 }
