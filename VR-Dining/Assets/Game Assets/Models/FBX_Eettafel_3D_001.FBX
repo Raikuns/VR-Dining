@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2018
 		Month: 11
 		Day: 30
-		Hour: 11
-		Minute: 16
-		Second: 43
-		Millisecond: 617
+		Hour: 14
+		Minute: 22
+		Second: 40
+		Millisecond: 9
 	}
 	Creator: "FBX SDK/FBX Plugins version 2019.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2019"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "30/11/2018 10:16:43.614"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "30/11/2018 13:22:40.006"
 			P: "Original|FileName", "KString", "", "", "C:\Users\west1612\Desktop\Projects\VR-Dining\VR-Dining\Assets\Game Assets\Models\FBX_Eettafel_3D_001.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2019"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "30/11/2018 10:16:43.614"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "30/11/2018 13:22:40.006"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\west1612\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\west1612\Documents\3dsMax\scenes\VRDining Safe File.max"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2262974179792, "", "Scene" {
+	Document: 2261620977632, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -198,7 +198,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2261828679344, "Geometry::", "Mesh" {
+	Geometry: 2263739443840, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.333333333333333,0.109803921568627,0.694117647058824
 		}
@@ -548,7 +548,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2263741970448, "Model::Eettafel003", "Mesh" {
+	Model: 2263804413872, "Model::Eettafel003", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -557,9 +557,9 @@ Objects:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "GeometricTranslation", "Vector3D", "Vector", "",0,0.823923289775848,0
 			P: "GeometricRotation", "Vector3D", "Vector", "",-90,-0,0
-			P: "GeometricScaling", "Vector3D", "Vector", "",0.0407884418964386,0.0384678989648819,0.0479863956570625
+			P: "GeometricScaling", "Vector3D", "Vector", "",0.0367095954716206,0.0346211045980453,0.0479863919317722
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346676,-0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346674,-0,0
 			P: "MaxHandle", "int", "Integer", "UH",95
 		}
 		Shading: T
@@ -573,8 +573,8 @@ Objects:  {
 Connections:  {
 	
 	;Model::Eettafel003, Model::RootNode
-	C: "OO",2263741970448,0
+	C: "OO",2263804413872,0
 	
 	;Geometry::, Model::Eettafel003
-	C: "OO",2261828679344,2263741970448
+	C: "OO",2263739443840,2263804413872
 }
