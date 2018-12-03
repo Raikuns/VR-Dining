@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86da5a3386409dd46b5c5f9ed4fc13e3
+guid: afd674375b01ed843a0e3521b0f9ccb5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: LopendeBandBand
+    4300000: Televisie
   externalObjects: {}
   materials:
     importMaterials: 1
