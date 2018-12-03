@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cd33aef53816a504b884a537073c63db
+guid: 34b89edcc10191444aedeeec3c1c6547
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,8 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Kussen
-    2186277476908879412: ImportLogs
+    4300000: kussen003
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -66,7 +65,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 0
+    tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
