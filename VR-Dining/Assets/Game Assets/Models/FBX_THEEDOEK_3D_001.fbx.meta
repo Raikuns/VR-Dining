@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 1188f8aecfa65418ba44f17e4cdcd8af
+guid: ffe93f8e0edbc42719bcd1ab6a4f06d9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: doeken_initialShadingGroup1
+    2100000: Theedoek_initialShadingGroup1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Doek
+    4300000: Theedoek01
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -48,7 +48,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
