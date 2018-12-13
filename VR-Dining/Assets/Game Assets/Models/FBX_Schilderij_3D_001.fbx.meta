@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fcbbb78720019544daa28ca64e2c95fd
+guid: 8d3408bcbafae064b8bcd112e46351d6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Plane.020
+    4300000: Schilderijen
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -49,7 +49,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
