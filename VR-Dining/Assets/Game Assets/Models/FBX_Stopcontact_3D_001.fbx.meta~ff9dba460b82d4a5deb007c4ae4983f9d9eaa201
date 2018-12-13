@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5215e3d235206734fb8d6a76f94d4104
+guid: a4bc6d83832478547841fde59e3b0bfc
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube
+    4300000: FBX_Stopcontact_3D_001
   externalObjects: {}
   materials:
     importMaterials: 1
