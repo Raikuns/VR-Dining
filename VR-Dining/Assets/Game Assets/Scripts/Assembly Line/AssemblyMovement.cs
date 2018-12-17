@@ -6,7 +6,7 @@ public class AssemblyMovement : MonoBehaviour
 {
 
     float mSpeed = 0.25f;
-    private float resetPosition = 2f;
+    private float resetPosition = -0.8f;
     // Update is called once per frame
     void Update()
     {
@@ -15,12 +15,12 @@ public class AssemblyMovement : MonoBehaviour
 
     void LineMovement()
     {
-        transform.Translate(Vector3.down * (mSpeed * Time.deltaTime));
+        transform.Translate(Vector3.forward * (mSpeed * Time.deltaTime));
 
-        if (transform.localPosition.z >= resetPosition)
+        if (transform.localPosition.x <= resetPosition)
         {
             transform.DetachChildren();
-            Vector3 startingPos = new Vector3(transform.position.x, transform.position.y, -1.4f);
+            Vector3 startingPos = new Vector3(1.63f, transform.position.y, transform.position.z);
             transform.position = startingPos;
         }
     }

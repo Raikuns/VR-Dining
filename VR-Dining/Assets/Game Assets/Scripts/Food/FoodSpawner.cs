@@ -8,7 +8,7 @@ public class FoodSpawner : MonoBehaviour {
     bool spawned;
 	// Use this for initialization
 	void Start () {
-        spawned = false;    
+        StartCoroutine(SpawnTimer(3));  
 	}
 
     void SpawnFood()
@@ -24,7 +24,7 @@ public class FoodSpawner : MonoBehaviour {
     public IEnumerator SpawnTimer(float timer)
     {
         spawned = true;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(timer);
         SpawnFood();        
     }    
 }
