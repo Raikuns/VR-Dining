@@ -4,10 +4,23 @@ using UnityEngine;
 
 public class FoodSpawner : MonoBehaviour {
 
-    [SerializeField] private List<ScriptableFood> food = new List<ScriptableFood>();
-    bool spawned;
+
+    [System.Serializable]
+    public class Pool
+    {
+        public string tag;
+        public Food foodPrefab;
+        public int size;
+    }
+    [SerializeField] private List<ScriptableFood> food = new List<ScriptableFood>(); //List of the food objects that will be spawnded;
+    bool spawned;   // Bool that is used for the Coroutines;
+
+    
+    
 	// Use this for initialization
 	void Start () {
+
+ 
         StartCoroutine(SpawnTimer(3));  
 	}
 

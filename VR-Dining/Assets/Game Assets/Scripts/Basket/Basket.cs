@@ -6,7 +6,7 @@ using UnityEngine;
 public class Basket : MonoBehaviour
 {
 
-    public bool correct;
+    protected bool correct;
     public bool LessThanWall;
     private GameManager gameManager;
 
