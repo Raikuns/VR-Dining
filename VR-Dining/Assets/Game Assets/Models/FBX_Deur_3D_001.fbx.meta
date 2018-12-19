@@ -8,11 +8,23 @@ ModelImporter:
     100004: Handvat
     100006: handvatRing
     100008: KozijnDeur
+    100010: Deur 1
+    100012: group1
+    100014: transform1
+    100016: transform2
+    100018: transform3
+    100020: transform4
     400000: Deur
     400002: //RootNode
     400004: Handvat
     400006: handvatRing
     400008: KozijnDeur
+    400010: Deur 1
+    400012: group1
+    400014: transform1
+    400016: transform2
+    400018: transform3
+    400020: transform4
     2100000: lambert1
     2300000: Deur
     2300002: Handvat

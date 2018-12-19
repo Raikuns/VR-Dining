@@ -140,6 +140,7 @@ ModelImporter:
     2300082: pCube8
     2300084: pCube9
     2300086: pCylinder1
+    2300088: //RootNode
     3300000: afstandbediening
     3300002: pCube10
     3300004: pCube11
@@ -184,6 +185,7 @@ ModelImporter:
     3300082: pCube8
     3300084: pCube9
     3300086: pCylinder1
+    3300088: //RootNode
     4300000: afstandbediening
     4300002: pCube3
     4300004: pCube4
@@ -228,6 +230,7 @@ ModelImporter:
     4300082: pCube42
     4300084: pCube43
     4300086: pCube44
+    4300088: Afstandbediening
   externalObjects: {}
   materials:
     importMaterials: 1
