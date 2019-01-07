@@ -17,7 +17,7 @@ public class Basket : MonoBehaviour
 
     void Start()
     {
-        gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
+        //gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
     }
 
     public void AddToList(Food _food, int _score)
@@ -25,14 +25,14 @@ public class Basket : MonoBehaviour
         if (correct)
         {
             correctCalories.Add(_food);
-            gameManager.UpdateScore(_score);
+            //gameManager.UpdateScore(_score);
             Destroy(_food.gameObject);
         }
 
         else if (!correct)
         {
             incorrectCalories.Add(_food);
-            gameManager.UpdateScore(_score);
+           // gameManager.UpdateScore(_score);
             Destroy(_food.gameObject);
         }
     }

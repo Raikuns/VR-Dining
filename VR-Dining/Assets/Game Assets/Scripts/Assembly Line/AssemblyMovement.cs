@@ -5,7 +5,7 @@ using UnityEngine;
 public class AssemblyMovement : MonoBehaviour
 {
 
-    float mSpeed = 0.25f;
+    private float mSpeed = 0.30f;
     private float resetPosition = -0.8f;
     // Update is called once per frame
     void Update()

@@ -21,7 +21,7 @@ public class FoodSpawner : MonoBehaviour {
 	void Start () {
 
  
-        StartCoroutine(SpawnTimer(3));  
+        StartCoroutine(SpawnTimer(1f));  
 	}
 
     void SpawnFood()
@@ -30,7 +30,7 @@ public class FoodSpawner : MonoBehaviour {
         if(spawned)
         {
             Instantiate(food[Random.Range(0, food.Count)].Model.gameObject, this.transform);
-            StartCoroutine(SpawnTimer(3f));                       
+            StartCoroutine(SpawnTimer(1.5f));                       
         }       
     }
 
