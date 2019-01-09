@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class ControllerGrab : MonoBehaviour {
 
-    private SteamVR_TrackedObject trackedObj;
-
-   
+    private SteamVR_TrackedObject trackedObj;   
     private GameObject collidingObject;
     
     private GameObject objectInHand;
