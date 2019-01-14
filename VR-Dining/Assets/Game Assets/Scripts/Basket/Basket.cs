@@ -23,18 +23,10 @@ public class Basket : MonoBehaviour
     public void AddToList(Food _food, int _score)
     {
         if (correct)
-        {
-            correctCalories.Add(_food);
-            //gameManager.UpdateScore(_score);
-            Destroy(_food.gameObject);
-        }
-
-        else if (!correct)
-        {
+           correctCalories.Add(_food);        
+        else       
             incorrectCalories.Add(_food);
-           // gameManager.UpdateScore(_score);
-            Destroy(_food.gameObject);
-        }
+        Destroy(_food.gameObject);
     }
 
     void OnTriggerEnter(Collider other)

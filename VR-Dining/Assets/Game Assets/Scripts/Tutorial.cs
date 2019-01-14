@@ -3,19 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Tutorial : MonoBehaviour {
-
-    private FoodSpawner foodSpawner;
-    bool tutorialStarted = false;
-    private SteamVR_TrackedObject t_Object;
-
+    private SteamVR_TrackedObject trackedObj;
     private SteamVR_Controller.Device Controller
     {
-        get { return SteamVR_Controller.Input((int)t_Object.index); }
+        get { return SteamVR_Controller.Input((int)trackedObj.index); }
     }
+    private FoodSpawner foodSpawner;
+    bool tutorialStarted = false;
 
-    private void Awake()
+    void Awake()
     {
-        t_Object = GetComponent<SteamVR_TrackedObject>();
+        trackedObj = GetComponent<SteamVR_TrackedObject>();
     }
 
     void Start()
