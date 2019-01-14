@@ -16,15 +16,7 @@ public class FoodSpawner : MonoBehaviour {
     bool spawned;   // Bool that is used for the Coroutines;
 
     
-    
-	// Use this for initialization
-	void Start () {
-
- 
-        StartCoroutine(SpawnTimer(1f));  
-	}
-
-    void SpawnFood()
+    public void SpawnFood()
     {
         StopAllCoroutines();
         if(spawned)
