@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game Assets/Scenes/VR-Dining_LopendeBandScene_001.unity
+    guid: b6121714a3d7e1540a0d7129253afcdd
+  m_configObjects: {}
